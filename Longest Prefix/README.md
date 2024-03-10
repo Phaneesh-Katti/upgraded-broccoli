@@ -82,6 +82,9 @@ Item list: ['brinjal', 'bright', 'bring']
 
 Longest common prefix: bri
 
+<br>
+
+
 ## Contributing
 Feel free to contribute by opening issues or creating pull requests.
 
