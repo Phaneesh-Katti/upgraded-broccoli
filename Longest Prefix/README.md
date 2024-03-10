@@ -37,7 +37,7 @@ temp = ["string1", "string2", "string3"]
 ### Clone the repository 
 ```
 git clone https://github.com/Phaneesh-Katti/upgraded-broccoli.git
-cd your-repo
+cd upgraded-broccoli
 ```
 
 ### Run the Program
