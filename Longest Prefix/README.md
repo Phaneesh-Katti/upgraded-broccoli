@@ -47,42 +47,43 @@ python longest_prefix.py
 
 <br>
 ## Example
-  This is a program to find the longest common prefix among a list of strings. 
-  For example, the following list: 
-    flower, flow, flight 
-  has 'fl' as the longest common prefix.
-  
-  Enter 1 if you want to use predefined lists of strings. 
-  Enter 2 if you want to enter your list of strings. 
-  Your choice: 1
-  
-  Method 1:
-  
-  String slicing + no recursion
-  
-  Time: 10 ms
-  
-  Space: 11.83 MB
-  
-  Item list: ['brinjal', 'bright', 'bring']
-  
-  Longest common prefix: bri
-  
-  <br>
-  
-  Method 2:
-  
-  Recursive call with reducing the longest prefix
-  
-  Time: 20 ms
-  
-  Space: 20 MB
-  
-  Item list: ['brinjal', 'bright', 'bring']
-  
-  Longest common prefix: bri
-  
-  <br>
+
+This is a program to find the longest common prefix among a list of strings. 
+For example, the following list: 
+  flower, flow, flight 
+has 'fl' as the longest common prefix.
+
+Enter 1 if you want to use predefined lists of strings. 
+Enter 2 if you want to enter your list of strings. 
+Your choice: 1
+
+Method 1:
+
+String slicing + no recursion
+
+Time: 10 ms
+
+Space: 11.83 MB
+
+Item list: ['brinjal', 'bright', 'bring']
+
+Longest common prefix: bri
+
+<br>
+
+Method 2:
+
+Recursive call with reducing the longest prefix
+
+Time: 20 ms
+
+Space: 20 MB
+
+Item list: ['brinjal', 'bright', 'bring']
+
+Longest common prefix: bri
+
+<br>
 
 
 ## Contributing
