@@ -1,61 +1,77 @@
-Longest Common Prefix Finder
+# Longest Common Prefix Finder
 
-This is a Python program to find the longest common prefix among a list
-of strings. It provides two methods to achieve this:
+This is a Python program to find the longest common prefix among a list of strings. It provides two methods to achieve this:
 
-Method 1:
+## Method 1:
 
-String slicing with no recursion Time Complexity: 10 ms Space
-Complexity: 11.83 MB Method 2:
+- **String slicing with no recursion**
+- **Time Complexity:** 10 ms
+- **Space Complexity:** 11.83 MB
 
-Recursive call with reducing the longest prefix Time Complexity: 20 ms
-Space Complexity: 20 MB Usage:
+## Method 2:
 
-Predefined Lists of Strings
+- **Recursive call with reducing the longest prefix**
+- **Time Complexity:** 20 ms
+- **Space Complexity:** 20 MB
 
-If you want to use predefined lists of strings, choose option 1 when
-prompted. Example:
+## Usage:
 
-temp = \[\"brinjal\", \"bright\", \"bring\"\]
+### Predefined Lists of Strings
 
-Enter Your Own List of Strings
+If you want to use predefined lists of strings, choose option 1 when prompted. Example:
 
-If you want to enter your own list of strings, choose option 2 when
-prompted. Example:
+```python
+temp = ["brinjal", "bright", "bring"]
+```
 
-temp = \[\"string1\", \"string2\", \"string3\"\]
+### Enter Your Own List of Strings
 
-How to Run
+If you want to enter your own list of strings, choose option 2 when prompted. Example:
 
-Clone the repository: git clone
-https://github.com/your-username/your-repo.git cd your-repo
+```python
+temp = ["string1", "string2", "string3"]
+```
 
-Run the program: python longest_prefix.py
+## How to Run
 
-Example:
+### Clone the repository 
+```
+git clone https://github.com/Phaneesh-Katti/upgraded-broccoli.git
+cd your-repo
+```
 
-This is a program to find the longest common prefix among a list of
-strings. For example, the following list: flower, flow, flight has
-\'fl\' as the longest common prefix.
+### Run the Program
+```
+python longest_prefix.py
+```
 
-Enter 1 if you want to use predefined lists of strings. Enter 2 if you
-want to enter your list of strings. Your choice: 1
+<br><br>
+## Example
+This is a program to find the longest common prefix among a list of strings. 
+For example, the following list: 
+  flower, flow, flight 
+has 'fl' as the longest common prefix.
 
-Method 1:
+Enter 1 if you want to use predefined lists of strings. 
+Enter 2 if you want to enter your list of strings. 
+Your choice: 1
 
-string slicing + no recursion Time = 10 ms Space = 11.83 MB Item list:
-\[\'brinjal\', \'bright\', \'bring\'\] Longest common prefix: bri
+### Method 1:
+String slicing + no recursion
+Time: 10 ms
+Space: 11.83 MB
+Item list: ['brinjal', 'bright', 'bring']
+Longest common prefix: bri
+<br>
+### Method 2:
+Recursive call with reducing the longest prefix
+Time: 20 ms
+Space: 20 MB
+Item list: ['brinjal', 'bright', 'bring']
+Longest common prefix: bri
 
-Method 2:
-
-recursive call with reducing the longest prefix Time = 20 ms Space = 20
-MB Item list: \[\'brinjal\', \'bright\', \'bring\'\] Longest common
-prefix: bri
-
-Contributing
-
+## Contributing
 Feel free to contribute by opening issues or creating pull requests.
 
-License
-
+## License
 This project is licensed under the MIT License.
