@@ -46,6 +46,8 @@ python longest_prefix.py
 ```
 
 <br>
+
+
 ## Example
 
 This is a program to find the longest common prefix among a list of strings. 
