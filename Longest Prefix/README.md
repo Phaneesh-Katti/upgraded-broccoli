@@ -57,6 +57,7 @@ Enter 2 if you want to enter your list of strings.
 Your choice: 1
 
 Method 1:
+
 String slicing + no recursion
 
 Time: 10 ms
@@ -68,10 +69,15 @@ Item list: ['brinjal', 'bright', 'bring']
 Longest common prefix: bri
 <br>
 Method 2:
+
 Recursive call with reducing the longest prefix
+
 Time: 20 ms
+
 Space: 20 MB
+
 Item list: ['brinjal', 'bright', 'bring']
+
 Longest common prefix: bri
 
 ## Contributing
