@@ -67,7 +67,9 @@ Space: 11.83 MB
 Item list: ['brinjal', 'bright', 'bring']
 
 Longest common prefix: bri
+
 <br>
+
 Method 2:
 
 Recursive call with reducing the longest prefix
